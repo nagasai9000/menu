@@ -1,0 +1,404 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    /* background-color: black; */
+}
+#nav{
+    height:70px;
+    width: 100%;
+    background-color:white;
+    z-index: 1;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+#bar{
+    font-size: 30px;
+    color:gray;
+    padding-left:2%;
+    /* opacity: .5; */
+}
+#bar:hover{
+    transform: scale(1.1);
+    color: black;
+}
+#bar1{
+    font-size: 30px;
+    color: red;
+    padding-left:2%;
+}
+#bar1:hover{
+    transform: scale(1.1);
+}
+#sign{
+    padding-left:2%;
+    color: black;
+    text-decoration: none;
+}
+#sign:hover{
+    transform: scale(1.1);
+    color:black;
+}
+#div1{
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+}
+#div3{
+    display: flex;
+    width: 25%;
+    padding-right: 0%;
+    justify-content:space-evenly;
+}
+#epicurious{
+    font-family:"Renner",sans-serif;
+    opacity: .8;
+    color: red;
+    font-size:200%;
+}
+#epicurious:hover{
+    font-size:210%;
+    /* font-family:cursive; */
+}
+#search{
+    font-size: 15px;
+    color: gray;
+    text-decoration: none;
+}
+#search:hover{
+    transform: scale(1.1);
+    color:black;
+}
+
+#sai{
+    position: absolute;
+   margin-top: -25%;
+   margin-left:35%;
+   font-size: 35px;
+   color: white;
+}
+#sai1{
+    position: absolute;
+    margin-top: -15%;
+    color: black;
+    /* border: 2px solid black; */
+    width: 700px;
+    height:35px;
+    padding-top: 2%;
+    padding-left: 3%;
+    margin-left: 23%;
+    background-color: white;
+    /* z-index: 1; */
+    opacity: .8;
+}
+#sai2{
+    position: absolute;
+    margin-top: -8%;
+    margin-left:45% ;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+#tea{
+    border: 2px solid white;
+    position: absolute;
+    height: 270px;
+    width: 677px;
+    margin-top: -23%;
+    margin-left: 23%;
+}
+#box{
+    /* border: 1px solid; */
+    height:40%;
+    width:40%;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: -5%;
+    background-color: white;
+}
+#box:hover{
+    text-decoration: underline;
+}
+#innbox{
+    text-align: center;
+}
+#hr1{
+    width: 20%;
+    margin-top: 4%;
+    margin-left: 38%;
+}
+#BY{
+    text-decoration: none;
+    margin-left: 33%;
+    color: red;
+    font-size: small;
+    margin-top:50%;
+}
+#card{
+    display: flex;
+    width: 50%;
+    margin-top: 15%;
+    margin-left: 25%;
+    justify-content: space-between;
+}
+#card:hover{
+    text-decoration: underline;
+}
+#acard{
+    text-decoration: none;
+    color: black;
+    margin-left: 2px;
+    opacity:.9;
+    text-align:center;
+}
+#hr2{
+    width: 80%;
+    margin-left: 10%;
+}
+#chaibutton{
+    /* border: 2px solid; */
+    border-radius: 5px;
+    color: white;
+    height: 3%;
+    padding: 1%;
+    width:fit-content;
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 45%;
+    background-color: red;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+#head{
+    height: fit-content;
+}
+#ch1{
+    width: 40%;
+    margin-left: 10%;
+    font-size: 23px;
+    opacity: .8;
+}
+#ch11:hover{
+    text-decoration: underline;
+}
+#ch11{
+    text-decoration: none;
+    color: black;
+}
+#ch12{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+#ch13{
+    text-decoration: none;
+    color: red;
+    font-size: 15px;
+}
+#table{
+    width: 40%;
+    border-left: 1px solid;
+    position: absolute;
+    margin-top: -18%;
+    margin-left: 50%;
+    padding-left: 3%;
+}
+.td{
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+    font-weight: 800;
+}
+.tr:hover{
+    text-decoration: underline;
+}
+#card2{
+    /* border: 1px solid; */
+    height: 500px;
+    width: 53%;
+    display: flex;
+    margin-top: 1%;
+    margin-left: 25%;
+    justify-content: space-between;
+}
+#BY1{
+    text-decoration: none;
+    margin-left: 32%;
+    color: red;
+    font-size: small;
+    margin-top:50%;
+}
+#BY2{
+    text-decoration: none;
+    margin-left: 25%;
+    color: red;
+    font-size: small;
+    margin-top:50%;
+}
+#card22:hover{
+    text-decoration: underline;
+}
+#card23:hover{
+    text-decoration: underline;
+}
+#BY:hover{
+    text-decoration: none;
+}
+#card3{
+    height: 500px;
+    width: 53%;
+    display: flex;
+    margin-top: 1%;
+    margin-left: 25%;
+    justify-content: space-between;
+}
+#card4{
+    height: 500px;
+    width: 53%;
+    display: flex;
+    margin-top: 1%;
+    margin-left: 25%;
+    justify-content: space-between;
+}
+#card5{
+    height: 500px;
+    width: 53%;
+    display: flex;
+    margin-top: 1%;
+    margin-left: 25%;
+    justify-content: space-between;
+}
+#fieldset{
+    font-size: 25px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+#line{
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid;  */
+    height: 350px;
+    width:80%;
+    margin-left: 7%;
+}
+.line1{
+    width: 100px;
+    height: 30px;
+}
+.line2{
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+}
+#style{
+    background-color: #f1f2f2;
+    height: fit-content;
+}
+#acard2{
+    margin-left: 20%;
+    margin-top: 20%;
+    padding: 5%;
+    width: 150px;
+    height: fit-content;
+
+}
+#innbox1{
+    /* border: 1px solid; */
+    flex-wrap: wrap;
+    width:100px;
+    height: 20px;
+    text-align: center;
+    opacity: .8;
+    margin-left: 40px;
+}
+#acard21{
+    margin-left: 50%;
+    margin-top: 20%;
+}
+#acard22{
+    margin-left: 50%;
+    margin-top: 20%;
+}
+ .line1:hover{
+    text-decoration: underline;
+}
+#input{
+    height: 6%;
+    width: 20%;
+    margin-top: -2%;
+    margin-left: 60%;
+    text-indent: 20PX;
+    position: absolute;
+}
+#btn{
+    height: 6.5%;
+    position: absolute;
+    width: fit-content;
+    margin-top: -2%;
+    margin-left:80.3% ;
+    color: white;
+    background-color: black;
+    letter-spacing: 2px;
+    text-indent: 10px;
+    cursor: pointer;
+}
+#lorem{
+    color: white;
+    font-family: "Serif";
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 20%;
+    padding-top: 3%;  
+}
+#innerdiv{
+    position: absolute;
+    border: 2px solid white;
+    width: 950px;
+    height: 450px;
+    margin-top: -37.5%;
+    margin-left: 12%;
+}
+#gowd{
+    margin-left:10%;
+}
+#innerdiv1{
+    height: 300px;
+    width: fit-content;
+    position: absolute;
+    width: 400px;
+    background-color: #f1f2f2;
+    margin-left: 52%;
+    margin-top: 10%;
+}
+#cook{
+    position: absolute;
+    /* border: 1px solid; */
+    color: white;
+    background-color: red;
+    width: fit-content;
+    padding: 1.5%;
+    height: 15px;
+    margin-top: -33.7%;
+    margin-left: 59.5%;
+}
+#innerdiv2:hover{
+    text-decoration: underline;
+}
+#a{
+    text-decoration: none;
+    color: black;
+}
+#a1{
+    text-decoration: none;
+    color: red;
+    padding-left:35% ;
+    margin-top: 0dvb80%;
+}
+#font{
+    height: 400px;
+    width: 100%;
+    background-color: #f1f2f2;
+}
